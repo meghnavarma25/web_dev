@@ -1,0 +1,100 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background: url('3.jpg') no-repeat center center fixed; 
+}
+.content {
+    /* Your content styles go here */
+    /* For example, set a max-width to center the content in the middle of the page */
+    max-width: 800px;
+    margin: 0 auto; /* Center the content horizontally */
+}
+nav {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Evenly space the items */
+    align-items: center; /* Center the items vertically */
+}
+
+/* Style the navigation links */
+nav a {
+    color: #fff;
+    text-decoration:wavy;
+    padding: 16px 16px;
+}
+
+/* Style the navigation links on hover */
+nav a:hover {
+    background-color:rgb(212, 16, 91);
+}
+p {
+    margin-bottom: 20px; /* Adjust the value as needed */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+ul,ol{
+    margin-bottom: 20px; /* Adjust the value as needed */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.example {
+    margin: 20px;
+    padding:10px;
+    border-left:10px dashed black;
+}
+.container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.text {
+    flex: 1; /* Allow the text to take up remaining space */
+}
+h2{
+    margin-bottom: 20px; /* Adjust the value as needed */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.circular-image {
+    width: 300px;
+    height: 300px;
+    border: dashed 10px black;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px; /* Optional margin for spacing */
+}
+/* Style for the image within the circle */
+.circular-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+table {
+    width: 50%; /* Adjust the width of the table as needed */
+    border-collapse: collapse;
+    margin-left: 30px; /* Optional margin for spacing */
+}
+
+table, th, td {
+    border: 5px solid black;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    background-color:black;
+    color:aliceblue;
+    text-align: center;
+}
+a{
+    color:black;
+}
+a hover{
+    color:rgba(129, 81, 198, 0.299);
+}
