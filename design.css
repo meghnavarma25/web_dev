@@ -1,7 +1,7 @@
 body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    background: url('3.jpg') no-repeat center center fixed; 
+    background: url('background.jpg')no-repeat center center fixed;
 }
 .content {
     /* Your content styles go here */
